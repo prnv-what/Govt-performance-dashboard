@@ -4,7 +4,7 @@
   import path from 'path';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? "/govt-performance-dashboard/" : "/",
+  base: process.env.NODE_ENV === 'production' ? "/Govt-performance-dashboard/" : "/",
   plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
